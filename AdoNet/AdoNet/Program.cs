@@ -55,12 +55,13 @@ namespace AdoNet
             //services.Add(student2);
             //services.Add(student);
 
-            //services.Update(student5, 16);
-            //services.Delete(18);
-            services.GetAll().ForEach(s => { Console.WriteLine($"{s.Id}. {s.Name} {s.Surname} {s.Age} "); });
-            services.Get(20);
 
-            // databasedeki bezi xetalara göre Id ler 15 den başlıyır :(
+            //services.Update(student5, 3);
+            //services.Delete(2);
+            //services.GetAll().ForEach(s => { Console.WriteLine($"{s.Id}. {s.Name} {s.Surname} {s.Age} "); });
+            //services.Get(1);
+
+          
 
 
 

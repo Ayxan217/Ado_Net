@@ -80,7 +80,7 @@ namespace AdoNet.Services
             
             if (student != null) {
             
-            Console.WriteLine($"{student.Id} {student.Name} {student.Surname} {student.Age}");
+            Console.WriteLine($"{student.Id}. {student.Name} {student.Surname} {student.Age}");
 
             }
             else

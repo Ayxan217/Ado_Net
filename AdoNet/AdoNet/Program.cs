@@ -41,17 +41,26 @@ namespace AdoNet
             Age = 45
             
             };
+            Student student5 = new Student
+            {
+                Name = "resul",
+                Surname = "Kazımov",
+                Age = 25
 
-            services.Add(student3);
-            services.Add(student4);
-            services.Add(student2);
-            services.Add(student);
+            };
 
-            //services.Update(student4,2);
-            services.Delete(1);
-            services.GetAll().ForEach(s => { Console.WriteLine($"{s.Id} {s.Name} {s.Surname} {s.Age} "); });
-            //services.Get(3);
-            // databasedeki bezi xetalara göre Id ler 1 den başlamır :(
+
+            //services.Add(student3);
+            //services.Add(student4);
+            //services.Add(student2);
+            //services.Add(student);
+
+            //services.Update(student5, 16);
+            //services.Delete(18);
+            services.GetAll().ForEach(s => { Console.WriteLine($"{s.Id}. {s.Name} {s.Surname} {s.Age} "); });
+            services.Get(20);
+
+            // databasedeki bezi xetalara göre Id ler 15 den başlıyır :(
 
 
 

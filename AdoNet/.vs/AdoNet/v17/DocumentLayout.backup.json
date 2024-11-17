@@ -3,20 +3,20 @@
   "WorkspaceRootPath": "C:\\Users\\pc\\OneDrive\\Masa\u00FCst\u00FC\\Ado_Net\\AdoNet\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{CF1CA6A4-6B0E-42D7-8B7D-92D9037F7C18}|AdoNet\\AdoNet.csproj|c:\\users\\pc\\onedrive\\masa\u00FCst\u00FC\\ado_net\\adonet\\adonet\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CF1CA6A4-6B0E-42D7-8B7D-92D9037F7C18}|AdoNet\\AdoNet.csproj|solutionrelative:adonet\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{CF1CA6A4-6B0E-42D7-8B7D-92D9037F7C18}|AdoNet\\AdoNet.csproj|c:\\users\\pc\\onedrive\\masa\u00FCst\u00FC\\ado_net\\adonet\\adonet\\services\\studentservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CF1CA6A4-6B0E-42D7-8B7D-92D9037F7C18}|AdoNet\\AdoNet.csproj|solutionrelative:adonet\\services\\studentservices.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{CF1CA6A4-6B0E-42D7-8B7D-92D9037F7C18}|AdoNet\\AdoNet.csproj|c:\\users\\pc\\onedrive\\masa\u00FCst\u00FC\\ado_net\\adonet\\adonet\\data\\sql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{CF1CA6A4-6B0E-42D7-8B7D-92D9037F7C18}|AdoNet\\AdoNet.csproj|solutionrelative:adonet\\data\\sql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{CF1CA6A4-6B0E-42D7-8B7D-92D9037F7C18}|AdoNet\\AdoNet.csproj|c:\\users\\pc\\onedrive\\masa\u00FCst\u00FC\\ado_net\\adonet\\adonet\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF1CA6A4-6B0E-42D7-8B7D-92D9037F7C18}|AdoNet\\AdoNet.csproj|solutionrelative:adonet\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{CF1CA6A4-6B0E-42D7-8B7D-92D9037F7C18}|AdoNet\\AdoNet.csproj|c:\\users\\pc\\onedrive\\masa\u00FCst\u00FC\\ado_net\\adonet\\adonet\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{CF1CA6A4-6B0E-42D7-8B7D-92D9037F7C18}|AdoNet\\AdoNet.csproj|solutionrelative:adonet\\models\\student.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{CF1CA6A4-6B0E-42D7-8B7D-92D9037F7C18}|AdoNet\\AdoNet.csproj|c:\\users\\pc\\onedrive\\masa\u00FCst\u00FC\\ado_net\\adonet\\adonet\\data\\sql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{CF1CA6A4-6B0E-42D7-8B7D-92D9037F7C18}|AdoNet\\AdoNet.csproj|solutionrelative:adonet\\data\\sql.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -26,11 +26,11 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "Sql.cs",
               "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Masa\u00FCst\u00FC\\Ado_Net\\AdoNet\\AdoNet\\Data\\Sql.cs",
               "RelativeDocumentMoniker": "AdoNet\\Data\\Sql.cs",
@@ -39,8 +39,7 @@
               "ViewState": "AgIAACMAAAAAAAAAAAA2wDQAAAAOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-17T10:08:49.42Z",
-              "IsPinned": true,
-              "EditorCaption": ""
+              "IsPinned": true
             },
             {
               "$type": "Bookmark",
@@ -48,20 +47,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
               "Title": "StudentServices.cs",
               "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Masa\u00FCst\u00FC\\Ado_Net\\AdoNet\\AdoNet\\Services\\StudentServices.cs",
               "RelativeDocumentMoniker": "AdoNet\\Services\\StudentServices.cs",
-              "ToolTip": "C:\\Users\\pc\\OneDrive\\Masa\u00FCst\u00FC\\Ado_Net\\AdoNet\\AdoNet\\Services\\StudentServices.cs",
-              "RelativeToolTip": "AdoNet\\Services\\StudentServices.cs",
-              "ViewState": "AgIAAFYAAAAAAAAAAAAAAEYAAAApAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\pc\\OneDrive\\Masa\u00FCst\u00FC\\Ado_Net\\AdoNet\\AdoNet\\Services\\StudentServices.cs*",
+              "RelativeToolTip": "AdoNet\\Services\\StudentServices.cs*",
+              "ViewState": "AgIAAEQAAAAAAAAAAAAAAFIAAAAtAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-17T10:05:48.925Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 2,
               "Title": "Student.cs",
               "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Masa\u00FCst\u00FC\\Ado_Net\\AdoNet\\AdoNet\\Models\\Student.cs",
               "RelativeDocumentMoniker": "AdoNet\\Models\\Student.cs",
@@ -73,13 +72,13 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "Program.cs",
               "DocumentMoniker": "C:\\Users\\pc\\OneDrive\\Masa\u00FCst\u00FC\\Ado_Net\\AdoNet\\AdoNet\\Program.cs",
               "RelativeDocumentMoniker": "AdoNet\\Program.cs",
               "ToolTip": "C:\\Users\\pc\\OneDrive\\Masa\u00FCst\u00FC\\Ado_Net\\AdoNet\\AdoNet\\Program.cs*",
               "RelativeToolTip": "AdoNet\\Program.cs*",
-              "ViewState": "AgIAACIAAAAAAAAAAAA2wC8AAAAiAAAAAAAAAA==",
+              "ViewState": "AgIAACsAAAAAAAAAAAA2wDsAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-11-16T04:45:20.528Z",
               "EditorCaption": ""

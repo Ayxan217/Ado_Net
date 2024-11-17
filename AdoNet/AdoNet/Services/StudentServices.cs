@@ -63,8 +63,9 @@ namespace AdoNet.Services
         public void Get(int id) {
             Student student = null;
             DataTable table = _sql.ExecuteQuery($"SELECT Id, Name, Surname, Age FROM People WHERE Id={id}");
-            foreach (DataRow item in table.Rows)
+           if(table.Rows.Count > 0)
             {
+                DataRow item = table.Rows[0];
                  student = new Student
                 {
                     Id = (int)item["Id"],
@@ -74,8 +75,9 @@ namespace AdoNet.Services
 
 
                 };
-              
             }
+              
+            
             if (student != null) {
             
             Console.WriteLine($"{student.Id} {student.Name} {student.Surname} {student.Age}");

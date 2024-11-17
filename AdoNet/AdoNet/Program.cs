@@ -52,9 +52,17 @@ namespace AdoNet
 
             Student student7 = new Student
             {
-                Id = 2,
+                
                 Name = "mirqasım",
                 Surname = "Kazımov",
+                Age = 25
+
+            };
+            Student student8 = new Student
+            {
+                
+                Name = "werty",
+                Surname = "Kadfsgdımov",
                 Age = 25
 
             };
@@ -63,9 +71,10 @@ namespace AdoNet
             //services.Add(student4);
             //services.Add(student2);
             //services.Add(student);
+            //services.Add(student7);
+            //services.Add(student8);
 
-
-            //services.Update(student7);
+            services.Update(student7, 5);
             //services.Delete(2);
             services.GetAll().ForEach(s => { Console.WriteLine($"{s.Id}. {s.Name} {s.Surname} {s.Age} "); });
             //services.Get(1);

@@ -1,6 +1,7 @@
 ﻿using AdoNet.Data;
 using AdoNet.Models;
 using AdoNet.Services;
+using Azure;
 using Microsoft.Data.SqlClient;
 using System.Data;
 
@@ -49,6 +50,14 @@ namespace AdoNet
 
             };
 
+            Student student7 = new Student
+            {
+                Id = 2,
+                Name = "mirqasım",
+                Surname = "Kazımov",
+                Age = 25
+
+            };
 
             //services.Add(student3);
             //services.Add(student4);
@@ -56,12 +65,12 @@ namespace AdoNet
             //services.Add(student);
 
 
-            //services.Update(student5, 3);
+            //services.Update(student7);
             //services.Delete(2);
-            //services.GetAll().ForEach(s => { Console.WriteLine($"{s.Id}. {s.Name} {s.Surname} {s.Age} "); });
+            services.GetAll().ForEach(s => { Console.WriteLine($"{s.Id}. {s.Name} {s.Surname} {s.Age} "); });
             //services.Get(1);
 
-          
+
 
 
 

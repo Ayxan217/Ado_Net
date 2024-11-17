@@ -1889,11 +1889,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pc\\source\\repos\\AdoNet\\AdoNet\\AdoNet.csproj",
+      "projectUniqueName": "C:\\Users\\pc\\OneDrive\\Masaüstü\\Ado_Net\\AdoNet\\AdoNet\\AdoNet.csproj",
       "projectName": "AdoNet",
-      "projectPath": "C:\\Users\\pc\\source\\repos\\AdoNet\\AdoNet\\AdoNet.csproj",
+      "projectPath": "C:\\Users\\pc\\OneDrive\\Masaüstü\\Ado_Net\\AdoNet\\AdoNet\\AdoNet.csproj",
       "packagesPath": "C:\\Users\\pc\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pc\\source\\repos\\AdoNet\\AdoNet\\obj\\",
+      "outputPath": "C:\\Users\\pc\\OneDrive\\Masaüstü\\Ado_Net\\AdoNet\\AdoNet\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\pc\\AppData\\Roaming\\NuGet\\NuGet.Config",

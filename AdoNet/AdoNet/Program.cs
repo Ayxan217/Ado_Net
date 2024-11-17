@@ -35,10 +35,16 @@ namespace AdoNet
                 Age = 16
             };
 
+            Student student4 = new Student {
+            Name = "agahüseyn",
+            Surname = "Mirdavudov",
+            Age = 45
+            
+            };
 
             //services.Add(student3);
             //services.Delete(6);
-            services.Update(student3);
+            services.Update(student4,8);
             services.GetAll().ForEach(s => { Console.WriteLine($"{s.Id} {s.Name} {s.Surname} {s.Age} "); });
             //services.Get(1);
 

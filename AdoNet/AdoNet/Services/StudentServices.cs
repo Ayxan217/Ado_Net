@@ -92,9 +92,11 @@ namespace AdoNet.Services
         }
         public void Update(Student student, int id)
         {
-            int result = _sql.ExecuteCommnad($"UPDATE People SET Name = '{student.Name}', Surname = '{student.Surname}', Age = {student.Age} WHERE Id = {id}");
 
-            Console.WriteLine($"Rows affected: {result}");
+            int result = _sql.ExecuteCommnad($"UPDATE People SET Name = '{student.Name}', Surname = '{student.Surname}', Age = {student.Age} WHERE Id = {id}");
+            
+
+            Console.WriteLine($"Rows updated: {result}");
         }
 
 
